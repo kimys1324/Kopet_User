@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/img_login_icon"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <EditText
+        android:background="@drawable/img_edt_bg"
+        android:id="@+id/edittxt_email"
+        android:hint="E-Mail"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:paddingLeft="40dp"/>
+
+    <EditText
+        android:background="@drawable/img_edt_bg"
+        android:id="@+id/edittxt_pwd"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"/>
+
+    <ImageButton
+        android:id="@+id/login_button"
+        android:background="@drawable/img_login_btn"
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:scaleX="0.8"
+        android:scaleY="0.8"/>
+
+    <ImageButton
+        android:background="@drawable/img_create_acc_btn"
+        android:id="@+id/create_account_btn"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+</LinearLayout>

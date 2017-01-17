@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_mypage"
+            android:icon="@drawable/ic_mypet"
+            android:title="MY Pet" />
+        <item
+            android:id="@+id/drawer_search"
+            android:icon="@drawable/ic_find_abd"
+            android:title="유기견 찾기" />
+        <item
+            android:id="@+id/drawer_message"
+            android:icon="@drawable/ic_msg"
+            android:title="메세지" />
+        <item
+            android:id="@+id/drawer_pet_center"
+            android:icon="@drawable/ic_petshop"
+            android:title="보호 시설" />
+    </group>
+
+</menu>

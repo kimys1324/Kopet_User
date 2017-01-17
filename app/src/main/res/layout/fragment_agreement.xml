@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/img_agreement_flow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_agreement"/>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:layout_marginRight="80dp"
+    android:layout_marginTop="230dp">
+        <CheckBox
+            android:id="@+id/agr_ckb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:button="@drawable/kopet_selector"
+            android:paddingLeft="20px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp">
+            <CheckBox
+                android:id="@+id/agr_ckb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:button="@drawable/kopet_selector"
+                android:paddingLeft="20px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/agr_next_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_agreement_next" />
+
+
+</LinearLayout>
